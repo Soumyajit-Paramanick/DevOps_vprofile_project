@@ -1,3 +1,7 @@
+# Fix DNS resolution
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
+echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+chattr +i /etc/resolv.conf
 #!/bin/bash
 TOMURL="https://archive.apache.org/dist/tomcat/tomcat-10/v10.1.26/bin/apache-tomcat-10.1.26.tar.gz"
 dnf -y install java-17-openjdk java-17-openjdk-devel

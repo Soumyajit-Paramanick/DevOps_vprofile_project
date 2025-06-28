@@ -1,3 +1,9 @@
+#!/bin/bash
+
+# Fix DNS resolution for Ubuntu
+echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+echo "nameserver 1.1.1.1" | sudo tee -a /etc/resolv.conf
+
 # adding repository and installing nginx		
 apt update
 apt install nginx -y

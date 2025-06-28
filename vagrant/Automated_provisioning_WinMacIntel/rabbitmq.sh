@@ -1,3 +1,7 @@
+# Fix DNS resolution
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
+echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+chattr +i /etc/resolv.conf
 #!/bin/bash
 sudo yum install epel-release -y
 sudo yum update -y
