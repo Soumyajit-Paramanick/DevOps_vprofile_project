@@ -23,5 +23,5 @@ sql dump file:
 - > mysql -u <user_name> -p accounts < db_backup.sql
 
 # Screenshots & Setup Highlights
-### 1. Vagrant Provisioning
+### 1. Vagrant Provisioning :
 ![Vagrant Provisioning](images/1.png)
