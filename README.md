@@ -29,5 +29,6 @@ sql dump file:
 ![Step 4](images/4.png)
 ![Step 5](images/5.png)
 ![Step 6](images/6.png)
+![Step 7](images/7.png)
 ![Step 8](images/8.png)
 ![Step 9](images/9.png)
